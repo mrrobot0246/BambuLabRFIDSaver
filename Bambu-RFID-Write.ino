@@ -57,7 +57,6 @@ void loop() {
   } else {
     Serial.println("Sector trailer written successfully (block 3)");
   }
-c:\Users\ibrah\Desktop\ESP32\RFID\Writefffffff.ino\Bambu-RFID-Write\Bambu-RFID-Write.ino
   rfid.PICC_HaltA();
   rfid.PCD_StopCrypto1();
   delay(3000);
